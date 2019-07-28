@@ -6,7 +6,7 @@ require 'rspec'
 require 'pry'
 require 'json'
 require 'report_builder'
-#require 'webdrivers'
+require 'webdrivers'
 
 Dir['#{Dir.pwd}/features/lib/helpers/*.rb'].sort.each { |file| require file }
 Dir['#{Dir.pwd}/features/lib/pages/*.rb'].sort.each { |file| require file }
