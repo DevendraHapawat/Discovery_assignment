@@ -1,0 +1,153 @@
+[
+  {
+    "uri": "features/adding_fav_videos.feature",
+    "id": "discovery's-watch-list.",
+    "keyword": "Feature",
+    "name": "Discovery's watch list.",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "discovery's-watch-list.;add-two-videos-to-favorite-list",
+        "keyword": "Scenario",
+        "name": "Add Two videos to favorite list",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.18.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91946
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.18.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55595
+            }
+          },
+          {
+            "output": [
+              "Scenario running: Add Two videos to favorite list"
+            ],
+            "match": {
+              "location": "features/support/env.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172345
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I visit Discovery's site",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/booking_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24968123859
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Look for recommended videos",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/booking_step.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 942700609
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I select any two videos in my favorite list",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/booking_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2655922684
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Navigate to My videos",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/booking_step.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10541103658
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Look for selected videos",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/booking_step.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2027055183
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see selected videos",
+            "line": 9,
+            "output": [
+              "Expected Videos Text - [\"THE DAILY BITE\", \"SHARK WEEK\"]",
+              "Actual Videos Text - [\"SHARK WEEK\", \"THE DAILY BITE\"]",
+              "############################################################",
+              "Expected Videos description - [\"Covering everything you need and want to know about America’s favorite week of the year.\", \"Television's longest running must-see summer TV event is filled with all things sharks! Shark Week…\"]",
+              "Actual Videos description - [\"Television's longest running must-see summer TV event is filled with all things sharks! Shark Week 2019 will kick off…\", \"Covering everything you need and want to know about America’s favorite week of the year.\"]"
+            ],
+            "match": {
+              "location": "features/step_definitions/booking_step.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14122460
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.18.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 444726839
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
