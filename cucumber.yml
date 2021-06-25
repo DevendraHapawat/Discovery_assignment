@@ -1,1 +1,1 @@
-default:  -f pretty -f json -o Report/report.json
+default: cucumber  -f pretty -f json -o results/cucumber.json

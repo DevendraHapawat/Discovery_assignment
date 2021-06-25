@@ -2,5 +2,5 @@ To run the give the below command
 # Install ruby
 # gem install bundler
 # bundle
-# cucumber
+# cucumber features/
 # Check Reports folder for reports.
